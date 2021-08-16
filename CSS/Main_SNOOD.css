@@ -110,6 +110,7 @@ footer {
 
 .footer {
 	color: white;
+	text-align: center;
 }
 
 body {
@@ -120,11 +121,12 @@ p {
 	margin-top: 10px;
 	margin-right: 0px;
 	margin-bottom: 5px;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 20px;
+	font-size: 16px;
 	color: #000000;
+	text-align: justify;
 }
 
 h1 {
@@ -170,46 +172,56 @@ td {
 	hyphens:auto;	
 }
 
+.snoodcycle {
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+	width: 95%;
+	padding: 10px 10px 10px 10px;
+}
+
 /*-------------- Start of Hover menu ------------------*/
 .activebutnav {
-	background-color: #CCDBE0;
+	background-color: #8c6fcb;
 }
 
 .dropbtn {
-  background-color: #e2eff3;
-  color: black;
+  background-color: #604b8c;
+  color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
-  width: 250px;
+  width: 20%;
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
-  width: 250px;
+  width: 200px;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
   right: 0;
-  background-color: #e2eff3;
+  background-color: #604b8c;
   /*min-width: 160px;*/
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1000;
-  color: #000;
+  color: white;
   /*overflow: auto;*/
   border-bottom: 1px solid #555;
   border-top: 1px solid #555;
   border-left: 1px solid #555;
   border-right: 1px solid #555;
-  width: 300px;
+  width: 200px;
+	border:double;
+	border-radius: 8px;
 }
 
 .dropdown-content a {
-  color: black;
+  color: white;
   /*padding: 12px 16px;*/
   text-decoration: none;
   display: block;
@@ -217,7 +229,7 @@ td {
   border-top: 1px solid #555;
   border-left: 1px solid #555;
   border-right: 1px solid #555;
-  width: 250px;
+  width: 200px;
 }
 
 .dropdown-content a:hover {background-color: black;}
