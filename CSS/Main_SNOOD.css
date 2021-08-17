@@ -2,7 +2,7 @@
 * /* {outline:1px solid red;} */
 body {
     font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-    background-image: url(../images/starry_better.jpg);
+    background-image: url("../Images/starry_better.jpg");
     margin: 0;
     padding: 0;
     color: #242426;
