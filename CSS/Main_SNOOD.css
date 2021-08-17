@@ -2,7 +2,7 @@
 /** {outline:1px solid red;} */
 body {
     font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-    background-image: url("../Images/starry_better.jpg");
+    background-color: #8c6fcb;
     margin: 0;
     padding: 0;
     color: #242426;
@@ -122,8 +122,8 @@ p {
 	margin-top: 10px;
 	margin-right: 0px;
 	margin-bottom: 5px;
-	padding-right: 30px;
-	padding-left: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 16px;
 	color: #000000;
@@ -178,7 +178,11 @@ td {
     xmargin-right: auto;
 	display: block;
 	max-width: 900px;
-	padding: 30px;
+	padding: 10px;
+}
+
+.panel {
+	background-colour: #0000;
 }
 
 /*-------------- Start of Hover menu ------------------*/
