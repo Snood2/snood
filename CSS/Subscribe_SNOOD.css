@@ -1,0 +1,240 @@
+@charset "utf-8";
+* /* {outline:1px solid red;} */
+body {
+    font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+    background-image: url("../Images/starry_better.jpg");
+    margin: 0;
+    padding: 0;
+    color: #242426;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#feature {
+    padding-left: 10px;
+    padding-top: 0px;
+}
+
+/* Width of the main content area */
+.container {
+	width: 100%;
+	background-color: #f8fafa;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+
+header {
+	background-color: #8c6fcb;
+}
+
+/* ------------------ Start of Nav Bar CSS--------------------*/
+nav {
+	float: left;
+	width: 100%;
+	background-color: #604b8c;
+	padding-bottom: 0px;
+	font-size: 20px;
+	color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    background-color: #dae5eb;
+	border: 1px solid #555;
+}
+
+nav li {
+    float: left;
+	/* puts border around buttons on nav bar and centres text in button */
+	text-align: center;
+    border-bottom: 1px solid #555;
+	border-top: 1px solid #555;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+    width: 190px; /* width of buttons on nav bar*/
+    color: white;/* colour of button text before it is clicked */
+    padding: 7px 0px;
+	border:double;
+	border-radius: 8px;
+	/* text-shadow: 114px 60px #F4F4F4; */
+}
+
+nav li a:hover {
+    background-color: #e2eff3;
+}
+
+nav li:last-child {
+    border-bottom: 1px solid #555;
+	border-top: 1px solid #555;
+	width: 250px;
+}
+
+nav li a.active {
+    background-color: #8c6fcb; /* colour that nav block stays when clicked*/
+    color: white; /* text colour when selected*/
+}
+
+nav li a:hover:not(.active) {
+    background-color: #f8fafa; /* colour that nav block is when hovering*/
+    color: #28203b; /* text colour when hovering*/
+    font-weight: bolder;
+}
+
+/* ------------------ End of Nav Bar CSS--------------------*/ 
+
+.content {
+    padding: 10px 10px;
+    width: 100%;
+    float: left;
+    font-family: Montserrat,
+'Work
+'Work;
+}
+
+footer {
+    padding: 2px 2px;
+    background-color: #604b8c;
+    position: relative;
+    clear: both; /* forces the .container to understand where the sidebar and content areas finish */
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+	font-size: 10px;
+}
+
+.footer {
+	color: white;
+	text-align: center;
+}
+
+body {
+	font-family: 'Judson', serif;
+}
+p {
+	font-weight: normal;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #000000;
+	text-align: justify;
+}
+
+h1 {
+	font-family: Montserrat;
+	font-size: 45px;
+	color: #375b64;
+	margin-top: 0px;
+	margin-bottom: 2px;
+	padding-right: 11px;
+	padding-left: 11px;
+	/* border-bottom: 2px solid #000000; */
+	font-variant: small-caps;
+}
+
+h2 {
+    font-family: Montserrat;
+	font-weight: 100;
+    font-size: 14px;
+    color: #4B555E;
+    text-align: left;
+    margin-top: 0;
+    padding-right: 27px;
+    padding-left: 27px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #8A0068;
+	margin-top: 0;	
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+td {
+    font-family: 'Work Sans';
+    color: black;
+	text-align:justify;
+	padding-left: 7px;
+	hyphens:auto;	
+}
+
+.snoodcycle {
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+	width: 95%;
+	padding: 10px 10px 10px 10px;
+}
+
+/*-------------- Start of Hover menu ------------------*/
+.activebutnav {
+	background-color: #8c6fcb;
+}
+
+.dropbtn {
+  background-color: #604b8c;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #604b8c;
+  /*min-width: 160px;*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1000;
+  color: white;
+  /*overflow: auto;*/
+  border-bottom: 1px solid #555;
+  border-top: 1px solid #555;
+  border-left: 1px solid #555;
+  border-right: 1px solid #555;
+  width: 200px;
+	border:double;
+	border-radius: 8px;
+}
+
+.dropdown-content a {
+  color: white;
+  /*padding: 12px 16px;*/
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #555;
+  border-top: 1px solid #555;
+  border-left: 1px solid #555;
+  border-right: 1px solid #555;
+  width: 200px;
+}
+
+.dropdown-content a:hover {background-color: black;}
+.dropdown:hover .dropdown-content {display: block; z-index: 3;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* ----------------- end of hover menu------------*/
