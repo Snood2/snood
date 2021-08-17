@@ -1,5 +1,5 @@
 @charset "utf-8";
-* /* {outline:1px solid red;} */
+/** {outline:1px solid red;} */
 body {
     font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
     background-image: url("../Images/starry_better.jpg");
@@ -90,7 +90,7 @@ nav li a:hover:not(.active) {
 /* ------------------ End of Nav Bar CSS--------------------*/ 
 
 .content {
-    padding: 10px 10px;
+    xpadding: 10px 10px;
     width: 100%;
     float: left;
     font-family: Montserrat,
@@ -174,11 +174,11 @@ td {
 }
 
 .snoodcycle {
-	margin-left: auto;
-    margin-right: auto;
+	xmargin-left: auto;
+    xmargin-right: auto;
 	display: block;
-	width: 95%;
-	padding: 10px 10px 10px 10px;
+	max-width: 900px;
+	padding: 30px;
 }
 
 /*-------------- Start of Hover menu ------------------*/
