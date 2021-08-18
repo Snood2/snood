@@ -55,13 +55,10 @@ nav li {
 nav li a {
     display: block;
     text-align: center;
-    padding: 0px 0px;
-    text-decoration: none;
     width: 190px; /* width of buttons on nav bar*/
     color: white;/* colour of button text before it is clicked */
     padding: 7px 0px;
-	border:double;
-	border-radius: 8px;
+    text-decoration: underline;
 	/* text-shadow: 114px 60px #F4F4F4; */
 }
 
