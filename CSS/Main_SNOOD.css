@@ -2,7 +2,7 @@
 /** {outline:1px solid red;} */
 body {
     font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-    background-image: url("../Images/loading.jpg");
+    background-color: #604b8c;
     margin: 0;
     padding: 0;
     color: #242426;
@@ -158,16 +158,17 @@ nav li a:hover:not(.active) {
 	 width: 50%;
 }
 
+/* THIS STUFF IS USEFUL MAYBE FOR THE HOVER THING
 #layoutsize {
 	color: black;
-	width: 190;
+	width: 190px;
 	line-height: 28px;
 	padding: 7px 0px;
 	border-radius: 5px;
 	list-style-type: none;
 	display: block;
 	cursor: pointer;
-}
+}*/
 
 /* ------------------ End of Nav Bar CSS--------------------*/ 
 
