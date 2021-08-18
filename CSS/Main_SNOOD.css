@@ -158,6 +158,16 @@ nav li a:hover:not(.active) {
 	 width: 50%;
 }
 
+#layoutsize {
+	color: black;
+	width: 190;
+	line-height: 28px;
+	padding: 7px 0px;
+	border-radius: 5px;
+	list-style-type: none;
+	display: block;
+	cursor: pointer;
+}
 
 /* ------------------ End of Nav Bar CSS--------------------*/ 
 
