@@ -58,7 +58,8 @@ nav li a {
     width: 190px; /* width of buttons on nav bar*/
     color: white;/* colour of button text before it is clicked */
     padding: 7px 0px;
-    text-decoration: underline;
+    text-decoration: none;
+	border-radius: 5px;
 	/* text-shadow: 114px 60px #F4F4F4; */
 }
 
@@ -81,6 +82,7 @@ nav li a:hover:not(.active) {
     background-color: #f8fafa; /* colour that nav block is when hovering*/
     color: #28203b; /* text colour when hovering*/
     font-weight: bolder;
+	    text-decoration: underline;
 }
 
 /* ------------------ End of Nav Bar CSS--------------------*/ 
