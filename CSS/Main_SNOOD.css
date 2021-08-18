@@ -2,7 +2,7 @@
 /** {outline:1px solid red;} */
 body {
     font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-    background-color: #8c6fcb;
+    background-image: url("../Images/loading.jpg");
     margin: 0;
     padding: 0;
     color: #242426;
@@ -23,7 +23,7 @@ body {
 }
 
 header {
-	background-color: #8c6fcb;
+	background-color: #604b8c;
 }
 
 /* ------------------ Start of Nav Bar CSS--------------------*/
@@ -112,6 +112,9 @@ footer {
 .footer {
 	color: white;
 	text-align: center;
+	font-size: 11px;
+	padding-bottom: 0.01%;
+	padding-top: 0.01%
 }
 
 body {
@@ -183,6 +186,11 @@ td {
 
 .panel {
 	background-colour: #0000;
+}
+
+.entireNavBar {
+	display: inline-block;
+	background-attachment: scroll;
 }
 
 /*-------------- Start of Hover menu ------------------*/
