@@ -1,5 +1,5 @@
 @charset "utf-8";
-/** {outline:1px solid red;} */
+/** {outline:1px solid red;}  */
 body {
     font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
     background-color: #604b8c;
@@ -219,7 +219,7 @@ p {
 h1 {
 	font-family: Montserrat;
 	font-size: 45px;
-	color: #375b64;
+	color: #604b8c;
 	margin-top: 0px;
 	margin-bottom: 2px;
 	padding-right: 11px;
@@ -257,6 +257,7 @@ td {
 	text-align:justify;
 	padding-left: 7px;
 	hyphens:auto;	
+	vertical-align: top;
 }
 
 .snoodcycle {
@@ -279,12 +280,22 @@ td {
 	text-align: center;
 	vertical-align: middle;
 }
-
 .missingname {
 	font-size: 11px;
-	text-align: center;
-	
+	text-align: center;	
 }
+.artist_impressions {
+	display: block;
+	max-width: 300px;
+	padding: 10px;
+	text-align: center;
+}
+.bottomofArtists {
+	vertical-align: baseline;
+	color: grey;
+	font-size: 12px;
+}
+
 /*-------------- Start of Hover menu ------------------*/
 .activebutnav {
 	background-color: #8c6fcb;
