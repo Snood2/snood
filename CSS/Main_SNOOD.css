@@ -275,7 +275,16 @@ td {
 	display: inline-block;
 	background-attachment: scroll;
 }
+.followers {
+	text-align: center;
+	vertical-align: middle;
+}
 
+.missingname {
+	font-size: 11px;
+	text-align: center;
+	
+}
 /*-------------- Start of Hover menu ------------------*/
 .activebutnav {
 	background-color: #8c6fcb;
