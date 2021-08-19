@@ -295,6 +295,9 @@ td {
 	color: grey;
 	font-size: 12px;
 }
+.usepersonalemail {
+	font-size: 10px;
+}
 
 /*-------------- Start of Hover menu ------------------*/
 .activebutnav {
