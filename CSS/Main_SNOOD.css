@@ -299,7 +299,7 @@ td {
 	font-size: 11px;
 }
 
-/*-------------- Start of Hover menu ------------------*/
+/*-------------- Start of DESKY menu ------------------*/
 .activebutnav {
 	background-color: #8c6fcb;
 }
@@ -358,3 +358,204 @@ td {
 /* ----------------- end of hover menu------------*/
 
 
+/*░░░░░░░░░░░░▄░░▄░▀█▄░░ */
+/*░░▄████████▄██▄██▄██░░ */
+/*░░█████████████▄████▌░ */
+/*░░▌████████████▀▀▀▀▀░░ */
+/*▒▀▒▐█▄▐█▄▐█▄▐█▄▒░▒░▒░▒ */
+
+
+/* THE RINO SIGNALS MOBY TIME */
+
+
+
+
+
+
+/*------------ start of hover WHOLE MENU for MOBY ------- */
+.activebutnav {
+	background-color: #8c6fcb;
+}
+
+.dropbtn {
+  background-color: #604b8c;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+.dropdownmoby {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+}
+
+.dropdown-contentmoby {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #604b8c;
+  /*min-width: 160px;*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1000;
+  color: white;
+  /*overflow: auto;*/
+  border-bottom: 1px solid #555;
+  border-top: 1px solid #555;
+  border-left: 1px solid #555;
+  border-right: 1px solid #555;
+  width: 200px;
+	border:double;
+	border-radius: 8px;
+}
+
+.dropdown-contentmoby a {
+  color: white;
+  /*padding: 12px 16px;*/
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #555;
+  border-top: 1px solid #555;
+  border-left: 1px solid #555;
+  border-right: 1px solid #555;
+  width: 200px;
+}
+
+.dropdown-contentmoby a:hover {background-color: black;}
+.dropdownmoby:hover .dropdown-contentmoby {display: block; z-index: 3;}
+.dropdownmoby:hover .dropbtn {background-color: #3e8e41;}
+
+/* ---------- end nav bar drop down crap stuff -------*/
+
+
+/*---- start main stuff */
+
+
+.mobycontent {
+    width: 100%;
+    float: left;
+    font-family: Montserrat,
+'Work
+'Work;
+}
+
+footer {
+    padding: 2px 2px;
+    background-color: #604b8c;
+    position: relative;
+    clear: both; /* forces the .container to understand where the sidebar and content areas finish */
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+	font-size: 10px;
+}
+
+.footer {
+	color: white;
+	text-align: center;
+	font-size: 11px;
+	padding-bottom: 0.01%;
+	padding-top: 0.01%
+}
+
+body {
+	font-family: 'Judson', serif;
+}
+p {
+	font-weight: normal;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #000000;
+	text-align: justify;
+}
+
+h1 {
+	font-family: Montserrat;
+	font-size: 45px;
+	color: #604b8c;
+	margin-top: 0px;
+	margin-bottom: 2px;
+	padding-right: 11px;
+	padding-left: 11px;
+	/* border-bottom: 2px solid #000000; */
+	font-variant: small-caps;
+}
+
+h2 {
+    font-family: Montserrat;
+	font-weight: 100;
+    font-size: 14px;
+    color: #4B555E;
+    text-align: left;
+    margin-top: 0;
+    padding-right: 27px;
+    padding-left: 27px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #8A0068;
+	margin-top: 0;	
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+td {
+    font-family: 'Work Sans';
+    color: black;
+	text-align:justify;
+	padding-left: 7px;
+	hyphens:auto;	
+	vertical-align: top;
+}
+
+.mobysnoodcycle {
+	xmargin-left: auto;
+    xmargin-right: auto;
+	display: block;
+	max-width: 900px;
+	padding: 10px;
+}
+
+.mobypanel {
+	background-colour: #0000;
+}
+
+.entireNavBar {
+	display: inline-block;
+	background-attachment: scroll;
+}
+.followers {
+	text-align: center;
+	vertical-align: middle;
+}
+.missingname {
+	font-size: 11px;
+	text-align: center;	
+}
+.artist_impressions {
+	display: block;
+	max-width: 300px;
+	padding: 10px;
+	text-align: center;
+}
+.bottomofArtists {
+	vertical-align: baseline;
+	color: grey;
+	font-size: 12px;
+}
+.personal {
+	font-size: 11px;
+}
