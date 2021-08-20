@@ -387,10 +387,10 @@ td {
   width: 20%;
 }
 
-.dropdownmoby {
-  position: relative;
-  display: inline-block;
-  width: 200px;
+.moby-dropdown {
+  xposition: relative;
+  xdisplay: inline-block;
+  xwidth: 200px;
 }
 
 .dropdown-contentmoby {
