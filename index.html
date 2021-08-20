@@ -65,7 +65,7 @@
 		  </header>
  <div class="entireNavBar"> 
 	  <nav class="moby"><!-- Start navigation bar -->
-		  <li> <div class="dropdown dropdownmoby moby-dropdown" style="float:right;">
+		  <li> <div class="dropdown dropdownmoby moby-dropdown" style="float:right;" onclick="toggleClass(this, 'clicked'); return false;">
   					 <a>Discover</a>
  				 	<div class="dropdown-contentmoby">
 						<a class="activebutnav" href="index.html">Welcome</a>
@@ -79,6 +79,25 @@
 				</div>
 			</li>
 	   </nav>
+	 <script>
+		 let hasClass = (element, className) =>
+		 	element.classList.contains(className);
+		 
+		 function addClass(element, className) {
+		 	element.classList.add(className);
+		 }
+		 function removeClass(element, className) {
+		    element.classList.remove(className);
+		 }
+		 
+		 function toggleClass(element, className) {
+			 if (hasClass(element, className)) {
+				 removeClass(element, className);
+			 } else {
+				 addClass(element, className);
+			 }
+		 }
+	 </script>
  <!-- End navigation barVogons -->
 	 <div class="desky">
   <div class="content">
@@ -243,4 +262,5 @@
   
 </div><!-- e©nd .container -->
 </body>
+	
 </html>

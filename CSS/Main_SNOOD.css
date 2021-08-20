@@ -365,7 +365,7 @@ td {
 /*▒▀▒▐█▄▐█▄▐█▄▐█▄▒░▒░▒░▒ */
 
 
-/* THE RINO SIGNALS MOBY TIME */
+/* THE RHINO SIGNALS MOBY TIME */
 
 
 
@@ -425,8 +425,15 @@ td {
 }
 
 .dropdown-contentmoby a:hover {background-color: black;}
-.dropdownmoby:hover .dropdown-contentmoby {display: block; z-index: 3;}
-.dropdownmoby:hover .dropbtn {background-color: #3e8e41;}
+
+.dropdownmoby:hover .dropdown-contentmoby,
+.dropdownmoby.clicked .dropdown-contentmoby {
+	display: block; z-index: 3;
+}
+
+.dropdownmoby:hover .dropbtn,
+.dropdownmoby.clicked .dropbtn
+{background-color: #3e8e41;}
 
 /* ---------- end nav bar drop down crap stuff -------*/
 
