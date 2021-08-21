@@ -280,6 +280,10 @@ td {
 	text-align: center;
 	vertical-align: middle;
 }
+.benefits {
+	text-align: center;
+	vertical-align: middle;
+}
 .missingname {
 	font-size: 11px;
 	text-align: center;	
@@ -545,6 +549,10 @@ td {
 	background-attachment: scroll;
 }
 .followers {
+	text-align: center;
+	vertical-align: middle;
+}
+.benefits {
 	text-align: center;
 	vertical-align: middle;
 }
