@@ -302,6 +302,15 @@ td {
 .personal {
 	font-size: 11px;
 }
+.Happy_Birthday {
+	size: 1000px;
+}
+.contribution {
+	text-algin: center;
+	height: auto;
+	width: auto;
+	display: inline;
+}
 
 /*-------------- Start of DESKY menu ------------------*/
 .activebutnav {
